@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+
+
+/* Html */
+
+html {
+	background-color: rgb(0, 0, 0);
+}
+
+/* Body */
+
+body {
+	background-color: rgb(0, 0, 0);
+}
+
+/* Headers */
+
+h1 {
+	font-family: Courier, monospace;
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+}
+
+h2 {
+	font-family: Courier, monospace;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+h5 {
+	font-family: Courier, monospace;
+	font-weight: 900;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-family: Courier, monospace;
+	color: white;
+	text-align: center;
+}
+
+li {
+	font-family: Courier, monospace;
+	color: white;
+	text-align: center;
+}
+
+ul {
+	font-family: Courier, monospace;
+	list-style-type: none;  
+	font-weight: lighter;  
+	font-size: 20px;  
+}
+
+
+/* Aside */
+
+
+
+/* Navigation Style */
+
+nav {
+	font-size: 1em;
+}
+
+nav > ul {
+	line-height: 1em;
+	list-style-type: upper-roman;
+	padding-left: 8px;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+	color: white;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+
+/* List Style */
+
+
+
+
+/* Footer Style */
+
+body > footer address {
+	background-color: white;
+	color: black;
+	font: normal bold 0.9em/3em;
+	font-family: Apple Chancery, cursive;
+	text-align: center;
+}
+
+footer {
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	font-family: Apple Chancery, cursive;
+	text-align: center;
+}
